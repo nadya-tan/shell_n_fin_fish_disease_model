@@ -1,1 +1,1 @@
-{"class_names": ["Bacterial Red disease", "Bacterial diseases - Aeromoniasis", "Bacterial gill disease", "Fungal diseases Saprolegniasis", "Healthy Fish", "Parasitic diseases", "Viral diseases White tail disease"], "image_size": 224, "architecture": "mobilenet_v3_small"}
+{"class_names": ["Bacterial red disease", "Aeromonas infection", "Bacterial gill disease", "Winter fungus/Cotton wool disease", "Healthy Fish", "Parasitesic Diseases", "Fin Rot"], "image_size": 224, "architecture": "mobilenet_v3_small"}
