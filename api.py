@@ -6,6 +6,7 @@ from torch import nn
 from PIL import Image
 import json
 from pathlib import Path
+from pillow_heif import register_heif_opener
 
 app = FastAPI()
 
@@ -58,6 +59,7 @@ transform = transforms.Compose([
 
 @app.post("/predict")
 async def predict(file: UploadFile = File(...)):
+    register_heif_opener()
     image = Image.open(file.file).convert("RGB")
     x = transform(image).unsqueeze(0)
 

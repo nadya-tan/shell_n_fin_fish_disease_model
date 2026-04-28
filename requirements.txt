@@ -2,6 +2,7 @@ streamlit
 torch
 torchvision
 pillow
+pillow-heif
 
 fastapi
 uvicorn
