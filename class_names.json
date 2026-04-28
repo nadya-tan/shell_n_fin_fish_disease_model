@@ -1,1 +1,1 @@
-{"class_names": ["Bacterial red disease", "Aeromonas infection", "Bacterial gill disease", "Winter fungus/Cotton wool disease", "Healthy", "Parasitesic diseases", "Fin rot"], "image_size": 224, "architecture": "mobilenet_v3_small"}
+{"class_names": ["Bacterial red disease", "Aeromonas infection", "Bacterial gill disease", "Winter fungus/Cotton wool disease", "Healthy", "Parasitic diseases", "Fin rot"], "image_size": 224, "architecture": "mobilenet_v3_small"}
